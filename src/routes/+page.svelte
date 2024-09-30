@@ -2,15 +2,14 @@
 	import FaLinkedin from 'svelte-icons/fa/FaLinkedin.svelte';
 	import FaGithub from 'svelte-icons/fa/FaGithub.svelte';
 	import FaEnvelope from 'svelte-icons/fa/FaEnvelope.svelte';
-	import FaMedium from 'svelte-icons/fa/FaMedium.svelte';
 	import { modalOpened } from '$lib/store';
 </script>
 
 <svelte:head>
-	<title>Gianmarco Cavallo - Main page</title>
+	<title>Sittichai Markwisai - Main page</title>
 </svelte:head>
 <main>
-	<h1>Hi!✋ <br /> I'm Gianmarco a Front-End Developer 💻 based in Italy</h1>
+	<h1>Hi!✋ <br /> I'm Sittichai a FullStack Developer 💻 based in Thailand</h1>
 	<div class="icons">
 		<div
 			role="button"
@@ -28,7 +27,7 @@
 		</div>
 
 		<a
-			href="https://github.com/Ladvace"
+			href="https://github.com/Jaylaelike"
 			aria-label="GitHub"
 			target="_blank"
 			rel="noopener noreferrer"
@@ -38,7 +37,7 @@
 			</div>
 		</a>
 		<a
-			href="https://www.linkedin.com/in/ladvace/"
+			href="https://www.linkedin.com/in/sittichai-markwisai-42b610185"
 			aria-label="Linkedin"
 			target="_blank"
 			rel="noopener noreferrer"
@@ -47,16 +46,7 @@
 				<FaLinkedin />
 			</div>
 		</a>
-		<a
-			href="https://medium.com/@ladvace"
-			aria-label="Medium"
-			target="_blank"
-			rel="noopener noreferrer"
-		>
-			<div class="icon">
-				<FaMedium />
-			</div>
-		</a>
+	
 	</div>
 </main>
 

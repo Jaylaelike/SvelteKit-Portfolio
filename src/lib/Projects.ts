@@ -1,23 +1,29 @@
 const projects = [
 	{
-		title: 'GDLauncher',
-		technologies: ['Node', 'React', 'Redux', 'Electron'],
+		title: 'EasyOCR-FastAPI-App',
+		technologies: ['FastAPI', 'Python', 'Makefile', 'OpenCV', 'EasyOCR'],
 		description:
-			'GDLauncher is a simple, yet powerful Minecraft custom launcher with a strong focus on the user experience',
-		url: 'https://github.com/gorilla-devs/GDLauncher'
+			'This project is a simple OCR application that allows you to extract text from images. It is built with FastAPI, Python, OpenCV, and EasyOCR.',
+		url: 'https://github.com/Jaylaelike/easyocr-fastapi-app'
 	},
 	{
-		title: 'WiseMan Discord Bot',
-		technologies: ['NodeJs', 'FireBase', 'MongoDb', 'golang'],
+		title: 'Quiz-App-Thaipbs',
+		technologies: ['Nextjs', 'Prisma', 'postgreSQL', 'TailwindCSS'],
 		description:
-			'The wiseMan bot allows you to level up based on the time you spend in a vocal channel',
-		url: 'https://github.com/Ladvace/WiseMan-DiscordBot'
+			'This project is a quiz application that allows you to create and take quizzes. It is built with Nextjs, Prisma, postgreSQL, and TailwindCSS.',
+		url: 'https://github.com/Jaylaelike/quiz-app-thaipbs'
 	},
 	{
-		title: 'Easy-react-carousel',
-		technologies: ['React', 'NodeJs'],
-		description: 'A simple carousel made in reactjs',
-		url: 'https://github.com/Ladvace/easy-react-carousel'
+		title: 'Assets-App-Search',
+		technologies: ['React', 'NodeJs', 'Mysql', 'Docker', 'QR-code Scanner'],
+		description: 'Tracking assets in a warehouse made easy with qr-code scanner',
+		url: 'https://github.com/Jaylaelike/assets-app-search/tree/main'
+	},
+	{
+		title: 'Data Analytics scatter plot',
+		technologies: ['Python', 'Pandas', 'Matplotlib'],
+		description: 'Plotting a scatter plot of data analytics for maps geolocations',
+		url: 'https://colab.research.google.com/drive/1-vt5AuNy0xO--IgeHmn0-6mCU-_R1zOS?usp=sharing'
 	}
 ];
 
